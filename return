@@ -23,7 +23,7 @@ return {
     ["xl"] = {
         Hwid = "950C8C3C-A116-4946-9BF0-0FB9D09F54C7"
     },
-    ["dreck"] = {
-        Hwid = "F79ACB9E-8ADF-4440-BA63-4A15443D9893"
+    ["hel"] = {
+        Hwid = "0E8C8662-766C-4E63-8E8B-AFDCD4001F7C"
     },
 }
