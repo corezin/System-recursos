@@ -1,0 +1,12 @@
+local L = {
+	0000000, 
+	000000,
+	0000
+}
+
+for _, id in pairs(L) do
+	if game.GameId == id then
+		game.Players.LocalPlayer:Kick(".")
+		break
+	end
+end
